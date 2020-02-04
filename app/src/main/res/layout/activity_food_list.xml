@@ -6,6 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".FoodListActivity">
 
+    <android.support.v7.widget.SearchView
+        android:id="@+id/food_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true" />
+
     <ListView
         android:id="@+id/food_list_view"
         android:layout_width="match_parent"
